@@ -1,0 +1,159 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{red}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\usepackage[super]{nth}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Radhakrishna}{Kamath}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{A-1 Sneh Roop Milan}{Dombivli 421 201}{India}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 86555 98366}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{rkkamath95@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{https://ratedrworld.github.io/}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{radhakrishna-kamath-530a3498}                        % optional, remove / comment the line if not wanted
+\social[twitter]{ratedradhakrish}                             % optional, remove / comment the line if not wanted
+\social[github]{ratedrworld}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\hrule
+\section{Education}
+
+\cventry{2018--present}{Master of Science}{Indian Institute Of Technology, Madras}{Chennai}{\textit{--}}{Master of Science in Wireless Networks Technology, in Computer Science from IIT Madras.}  % arguments 3 to 6 can be left empty
+\cventry{2013--2017}{Bachelor of Engineering}{Mumbai University}{Mumbai}{\textit{8.9 CGPI}}{Bachelors of Engineering in Computer Science from Vivekanand Education Society's Institute of Technology, Chembur.}  % arguments 3 to 6 can be left empty
+
+\cventry{2011--2013}{Higher Secondary Education}{Maharashtra State Board}{Maharahtra}{\textit{85.83 \%}}{}  % arguments 3 to 6 can be left empty
+
+\cventry{2001--2011}{Secondary School Education}{Maharashtra State Board}{Maharashtra}{\textit{91.27 \%}}{}  % arguments 3 to 6 can be left empty
+
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Experience}
+\subsection{Industry}
+\cventry{Mar'2018 - Jul'2018}{Software Engineer}{INK Academic}{Mumbai}{}{I was an Unity Game Developer for the project Immerz, which is an Augmented Reality (AR) game for teaching mathematics to students of class 4 to class 10.\newline{}%
+Key Responsibilities:%
+\begin{itemize}%
+\item I was part of the team to build front end of the game on Unity;
+  \begin{itemize}%
+  \item Making Augmented Reality Scene with Vuforia;
+  \item Making Normal Scenes;
+  \item Making Map Scene with Mapbox;
+  \end{itemize}
+\item I was working with UI system in Unity.
+\end{itemize}}
+\cventry{Dec'2017 - Feb'2018}{Software Engineer}{Mindseed Preschool}{Mumbai}{}{I was an Unity Game Developer for the project Immerz, which is an Augmented Reality (AR) game for teaching mathematics to students of class 4 to class 10.\newline{}%
+Key Responsibilities:%
+\begin{itemize}%
+\item I was part of the team to build front end of the game on Unity;
+  \begin{itemize}%
+  \item Making Augmented Reality Scene with Vuforia;
+  \item Making Normal Scenes;
+  \item Making Map Scene with Mapbox;
+  \end{itemize}
+\item I was working with UI system in Unity.
+\end{itemize}}
+\cventry{Jul'2017 - Dec'2017}{Software Engineer}{Mindseed Preschool}{Mumbai}{}{I was a full stack React Native Application Developer for the project Immerz, which was guide app for their kit for teaching english to kids of age 1-4 years. The App had a feature of ordering kit and do payment on the app itself.\newline{}%
+Key Responsibilities:%
+\begin{itemize}%
+\item I was a full stack developer who worked with some of the UI and majority of the backend part in the project;
+\end{itemize}}
+\subsection{Miscellaneous}
+\cventry{Jul'2015--Aug'2017}{Android App developer Intern}{Studyleague}{Mumbai}{}{I was an Android app developer for the project of apsicon event, and Bookhalt project.}
+
+\section{Languages}
+\cvitemwithcomment{English}{Full professional proficiency}{}
+\cvitemwithcomment{Hindi}{Professional working proficiency}{}
+\cvitemwithcomment{Konkani}{Native}{Mother Tongue}
+
+\section{Skillset}
+\cvdoubleitem{Languages}{Java, Clojure, C\#, php}{Technologies}{Android, React Native, Unity, \newline Vuforia, Mapbox}
+\cvdoubleitem{Database}{mongoDB, mySQL, SQLite}{}{}
+\cvdoubleitem{Libraries}{Reagent (Clojurescript + React), Expo(React-Native)}{}{}
+
+\section{Interests}
+\cvitem{Numismatics}{Collecting Indian coins which are minted on special occasion}
+
+\section{Achievements \& Extra co-curricular}
+\cvlistitem{Best out-going student in junior college and was \nth{3} in XII in junior college.}
+\cvlistitem{Worked as placement coordinator of my Class during my B.E.}
+\cvlistitem{Organized a lecture on Leadership, ethics and teamwork in sem V during B.E.}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+ % \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
+
